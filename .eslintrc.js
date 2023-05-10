@@ -44,6 +44,8 @@ module.exports = {
           'Item',
           'List',
           'InputValue',
+          'index',
+          'createdId',
         ],
       },
     ],

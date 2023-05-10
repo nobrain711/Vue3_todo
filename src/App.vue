@@ -9,8 +9,8 @@
 </template>
 
 <script setup lang="ts">
-  import Header from '@/components/common/Header.vue';
-  import Input from './components/Todo/Input.vue';
+  import Header from '@/views/Header.vue';
+  import Input from '@/components/Todo/Input.vue';
 </script>
 <style lang="scss">
   #app {

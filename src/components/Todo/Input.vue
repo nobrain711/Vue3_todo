@@ -23,9 +23,13 @@
 
     if (!value) return;
 
+    const length = store.List.length;
+    const createdId =
+      length === 0 ? 0 : store.List[length - 1].id + 1;
+
     inputValue.value = value;
     store.addTodoItem({
-      id: 1,
+      id: createdId,
       title: value,
       status: 'active',
     });

@@ -7,10 +7,10 @@
           <a href="/">All</a>
         </li>
         <li class="breadcrumb-item">
-          <a href="/">Active</a>
+          <a href="/active">Active</a>
         </li>
         <li class="breadcrumb-item">
-          <a href="/">Clear</a>
+          <a href="/clear">Clear</a>
         </li>
       </ol>
     </nav>
