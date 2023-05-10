@@ -1,0 +1,44 @@
+<template>
+  <div class="header">
+    <h1 class="header__title">TODO LIST</h1>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="/">All</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="/">Active</a>
+        </li>
+        <li class="breadcrumb-item">
+          <a href="/">Clear</a>
+        </li>
+      </ol>
+    </nav>
+  </div>
+</template>
+
+<script lang="ts">
+  export default {
+    name: 'Header',
+  };
+</script>
+
+<style lang="scss">
+  .header {
+    padding: 0 !important;
+
+    .header__title {
+      text-align: center;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+
+    .breadcrumb {
+      margin: 0;
+      padding: 6px 12px;
+      background-color: #e9ecef;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+  }
+</style>
