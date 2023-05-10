@@ -32,7 +32,7 @@
           renderTodoList.value = store.List;
         } else if (
           status === 'active' ||
-          status === 'clear'
+          status === 'completed'
         ) {
           renderTodoList.value = store.List.filter(
             (item: any) => item.status === status,

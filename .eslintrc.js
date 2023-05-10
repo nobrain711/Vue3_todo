@@ -40,6 +40,7 @@ module.exports = {
       {
         ignores: [
           'Header',
+          'Footer',
           'Input',
           'Item',
           'List',

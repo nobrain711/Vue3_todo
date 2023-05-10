@@ -4,7 +4,7 @@
       <input
         class="form-check-input mt-0"
         type="checkbox"
-        :checked="props.status === 'clear'"
+        :checked="props.status === 'completed'"
         @change="handleChangeStatus" />
     </div>
     <input
@@ -46,7 +46,7 @@
 
   const handleChangeStatus = () => {
     const changeStatus =
-      props.status === 'active' ? 'clear' : 'active';
+      props.status === 'active' ? 'completed' : 'active';
     store.changedStatus({
       id: props.id,
       status: changeStatus,
